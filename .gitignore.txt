@@ -1,0 +1,19 @@
+# Data - NEVER push large rasters or databases
+*.tif
+*.tiff
+*.tif.aux
+*.gpkg
+*.parquet
+*.zip
+*.xml
+data/
+
+
+# Python environment
+__pycache__/
+*.py[cod]
+venv/
+.env
+
+# OS junk
+.DS_Store
