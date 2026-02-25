@@ -31,7 +31,6 @@ The viewshed analysis implements the following:
 Key Python packages:
 - `numpy` - Numerical computation
 - `rasterio` - Raster data I/O
-- `geopandas` - Vector data handling
 
 See `environment.yml` for full dependency list and versions.
 
