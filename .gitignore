@@ -18,3 +18,7 @@ venv/
 # OS junk
 .DS_Store
 stl_view_arch.qgz
+images/project_overview.docx
+images/project_flow.pptx
+stlouis_building_dem_synopsis.md
+gateway_arch_viewshed_summary.md
