@@ -70,6 +70,21 @@ conda env create --file environment.yml
 
 *Overlay of both 'partial' and 'premium' views. Note that 'partial' views may also overlap with 'premium'*
 
+## Possible Next Steps
+
+### Short-term:
+
+- Run viewsheds for the other two heights (3/4 and base) to get a full 4-tier quality ranking
+- Grab St. Louis parcel boundaries and aggregate this to property level. Ask which specific addresses have the best views?
+- Clean up my Python scripts so they're not a complete mess and actually reusable
+
+### Medium-term:
+
+- Filter out power lines and other junk from the LiDAR (Class 14 if it's tagged)
+- Process adjacent tiles to cover more of the metro area…Right now it's just one 4km tile
+- Try separating buildings from trees to do a "summer view vs winter view" comparison when leaves are gone
+- Scrape some Zillow data and see if "arch view" actually correlates with higher listing prices
+
 ## License
 This project is licensed under the MIT License - see [LICENSE](LICENSE) file for details.
 
